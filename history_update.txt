@@ -1,0 +1,11 @@
+#16.08.2020 | v.1.0
+- Edit login dengan menggunakan MD5, password di encript MD5
+
+#16.08.2020 | v.1.1
+- edit table tb_password
+- decrypt 1 password
+- can't read 2 rows
+
+#17.08.2020 | v.1.2
+- decrypt can all password rows
+
