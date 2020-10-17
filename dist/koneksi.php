@@ -1,7 +1,7 @@
 <?php
 $version = '1.2';
 
-	$Open = mysqli_connect("localhost","pias","ubuntu123","passkeeper");
+	$Open = mysqli_connect("localhost","usernotroot","yourpasswordhere","passkeeper");
 //$mysqli = new mysqli("localhost","root","","cuti00");
 // Check connection
 if ($Open -> connect_errno) {
