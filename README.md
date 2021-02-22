@@ -1,6 +1,10 @@
 Password Keeper Web Version
 
+[id]
 Aplikasi untuk menyimpan data akun user dan password yang di encrypt didalam database MySQL dengan PHP. Dimana seluruh akun login pengguna di aplikasi web version ini di encrypt MD5.
+
+[en]
+An application for storing encrypted user account data and passwords in a MySQL database with PHP. Where all user login accounts in this web version application are encrypted MD5.
 
 Requirement:
 Apache 2.4.29
