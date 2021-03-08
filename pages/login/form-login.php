@@ -10,7 +10,18 @@
 					<input type="text" name="id_user" class="form-control" placeholder="User Name"><span class="glyphicon glyphicon-user form-control-feedback"></span>
 				</div>
 				<div class="form-group has-feedback">
-					<input type="password" name="password" class="form-control" placeholder="Password"><span class="glyphicon glyphicon-lock form-control-feedback"></span>
+					<input type="password" name="password" class="form-control" placeholder="Password" id="hide"><i class="fas fa-eye-slash eye glyphicon glyphicon-lock" onclick="myFunction()"></i>
+<script>
+function myFunction() {
+  var x = document.getElementById("hide");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
 				</div>
 				<?php
 				date_default_timezone_set("Asia/Jakarta");
@@ -21,6 +32,7 @@
 					<div class="col-xs-8"></div>
 					<div class="col-xs-4">
 					  <button type="submit" class="btn btn-danger btn-block btn-flat">Login</button>
+						<script src="script.js" defer></script>
 					</div>
 				</div>
 			</form>
