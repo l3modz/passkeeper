@@ -10,7 +10,7 @@ How to reset the admin password can be done in phpMyAdmin, enter a new password,
 <br />
 <br />
 <br />
-Requirement:<br />
+<b>Requirement:</b><br />
 Apache 2.4.29<br />
 PHP 7.2.24<br />
 MySQL 5.7.31<br />
