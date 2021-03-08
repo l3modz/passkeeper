@@ -32,7 +32,6 @@ function myFunction() {
 					<div class="col-xs-8"></div>
 					<div class="col-xs-4">
 					  <button type="submit" class="btn btn-danger btn-block btn-flat">Login</button>
-						<script src="script.js" defer></script>
 					</div>
 				</div>
 			</form>
