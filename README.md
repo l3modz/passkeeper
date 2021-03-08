@@ -6,7 +6,7 @@
 Cara me-reset password admin dapat dilakukan di phpMyAdmin, input password baru select type MD5.<br />
 How to reset the admin password can be done in phpMyAdmin, enter a new password, select type MD5.
 
-[en] An application for storing encrypted user account data and passwords in a MySQL database with PHP. <br />Where all user login accounts in this web version application are encrypted MD5. Click branches > master : for download zip file.
+[en] An application for storing encrypted user account data and passwords in a MySQL database with PHP. <br />Where all user login accounts in this web version application are encrypted MD5. Click branches > <a href="https://github.com/l3modz/passkeeper/tree/master">master</a> : for download zip file.
 <br />
 <br />
 <br />
