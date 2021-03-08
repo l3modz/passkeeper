@@ -18,6 +18,7 @@ session_start();
 	<link rel="stylesheet" href="dist/css/font-awesome.min.css">
 	<!-- Ionicons -->
 	<link rel="stylesheet" href="dist/css/ionicons.min.css">
+	<link rel="stylesheet" href="dist/css/style.css">
 	<!-- Theme style -->
 	<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
 	<link rel="stylesheet" href="dist/css/AdminLTE.css">
