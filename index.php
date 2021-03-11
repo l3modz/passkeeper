@@ -86,7 +86,7 @@ session_start();
 	</div>
 	<footer class="main-footer">
 		<div class="pull-right hidden-xs"><b>Version</b> <?php echo $version; ?></div>
-		&copy; 2020 <a href="#" target="_blank">Password Keeper Web Version</a>.
+		&copy; 2020 - <?php echo date("Y");?> <a href="https://github.com/l3modz/passkeeper/tree/master" target="_blank">Password Keeper Web Version</a>.
 	</footer>
 </div>
 	<!-- ./wrapper -->
