@@ -11,5 +11,7 @@ if ($Open -> connect_errno) {
     $output = false;
     $encrypt_method = "AES-256-CBC";
     $secret_key = '9e0864d3666633bcd18b55602dff9180';
+//$secret_key = it's md5 word from md5generator, change it as your own
     $secret_iv = '3ed9b95e4b6f2c345836def81e570ef1';
+//$secret_iv = it's md5 word from md5generator, change it as your own
 ?>
