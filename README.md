@@ -15,7 +15,7 @@ MySQL 5.7.31<br />
 <br />
 <br />
 <b>Installation :</b><br />
-Import passkeeper.sql with PhpMyAdmin to DB passkeeper or .sql file, upload folder passkeeper to Apache/www/html forlder, edit file passkeeper/dist/koneksi.php, make same with your own MySQL user and password. 
+Import passkeeper.sql with PhpMyAdmin to DB passkeeper or .sql file, upload folder passkeeper to Apache /var/www/html folder, edit file passkeeper/dist/koneksi.php, make same with your own MySQL user and password. 
 
 
 user:<br />
