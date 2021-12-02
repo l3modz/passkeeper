@@ -19,8 +19,9 @@
 function encrypt_decrypt($action, $string) {
     $output = false;
     $encrypt_method = "AES-256-CBC";
-    $secret_key = '0c5d3c1e26e00f79356db63c97b7e4ae';
-    $secret_iv = '3ed9b95e4b6f2c345836def81e570ef1';
+    //$secret_key = '0c5d3c1e26e00f79356db63c97b7e4ae';
+    $secret_key = '9e0864d3666633bcd18b55602dff9180';
+    $secret_iv = '0c5d3c1e26e00f79356db63c97b7e4ae';
     // hash
     $key = hash('sha256', $secret_key);
     
