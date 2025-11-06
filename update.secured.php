@@ -19,7 +19,8 @@ function secure_decrypt($ciphertext_base64, $key) {
 }
 
 // Usage
-$secure_key = 'replace_this_with_your_env_or_secure_key';
+//$secure_key = 'replace_this_with_your_env_or_secure_key';
+$secure_key = '25f2bf8046aa28e9149941592bc18b5a';
 $original = '17';
 
 $encrypted = secure_encrypt($original, $secure_key);
