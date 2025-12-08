@@ -19,7 +19,7 @@ function secure_decrypt($ciphertext_base64, $key) {
 }
 
 // Usage
-//$secure_key = 'replace_this_with_your_env_or_secure_key';
+//$secure_key = 'replace_this_with_your_env_or_secure_key_MD5_generator_online_for_mankind_Goodness';
 $secure_key = '25f2bf8046aa28e9149941592bc18b5a';
 $original = '17';
 
