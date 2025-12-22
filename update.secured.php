@@ -1,4 +1,5 @@
-<?
+<?php
+Add update.secured.php as as analyses Google Gemini 3.
 function secure_encrypt($plaintext, $key) {
     $cipher = "AES-256-CBC";
     $ivlen = openssl_cipher_iv_length($cipher);
@@ -7,6 +8,7 @@ function secure_encrypt($plaintext, $key) {
     $ciphertext = openssl_encrypt($plaintext, $cipher, $key, OPENSSL_RAW_DATA, $iv);
     return base64_encode($iv . $ciphertext);
 }
+
 
 function secure_decrypt($ciphertext_base64, $key) {
     $cipher = "AES-256-CBC";
